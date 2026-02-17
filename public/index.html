@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VIN Decoder</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main>
+    <h1>VIN Decoder</h1>
+
+    <form id="vin-form">
+      <input
+        type="text"
+        id="vin"
+        maxlength="17"
+        placeholder="Enter 17-character VIN"
+        required
+      />
+      <button type="submit">Decode</button>
+    </form>
+
+    <section id="result" class="hidden"></section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
