@@ -15,14 +15,14 @@ npm
 1. Clone or Download
 ```bash
 git clone https://github.com/ryado8/vin-decoder.git
-cd minimal-vin-decoder
+cd vin-decoder
 ```
 Or download ZIP and extract.
 
 2. Install Dependencies and Run App
 ```bash
 npm install
-npm run dev
+npm run dev / npm start
 ```
 
 Open `http://localhost:<port>`
